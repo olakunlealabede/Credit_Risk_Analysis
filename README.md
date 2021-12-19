@@ -34,5 +34,11 @@ Using the knowledge of the "imblearn.ensemble" library, train and compare two di
 ![image](https://user-images.githubusercontent.com/89113627/146694061-d2d3419e-579d-43ee-9da8-62c2a4dba835.png)
 ![image](https://user-images.githubusercontent.com/89113627/146694109-9f5b3146-a5ab-48f5-a5d6-8a19a9673d3f.png)
 
+# SUMMARY
 
+In determining which model is best at predicting high-risk loans, the models were undersampled, oversampled, and also combined. Ensemble classifiers was evaluated where the dataset was resampled the using BalancedRandomForestClassifier and EasyEnsembleClassifier models in order to predict which loans are high or low risk. Oversampling, undersampling, and mixed models have low recall and the accuracy score is not as high as ensemble classifiers.
+
+# RECOMMENDATION
+
+considering the best result amongst all the models evaluated, EasyEnsembleClassifier had the best balance of all the models because of its high accuracy score and a good balance of precision and recall scores. Therefore, I would recommend using EasyEnsembleClassifier to predict credit risk.
 
